@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Sakshi Baldevsingh Gehi - B.Tech Computer Engineering student at RCPIT Shirpur. 9.33 CGPA, 1000+ Solved Coding Questions, CodeChef Contender, and Full-Stack Builder.">
+  <meta name="keywords" content="Sakshi Gehi, Sakshi Baldevsingh Gehi, RCPIT Shirpur, Computer Engineering, CodeChef, LeetCode, DSA, QR Code Attendance System, Portfolio">
+  <meta name="author" content="Sakshi Baldevsingh Gehi">
+  <title>Sakshi Gehi | B.Tech Computer Engineering & Developer</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <!-- Ambient Gradient Background Orbs -->
+  <div class="ambient-glow orb-purple"></div>
+  <div class="ambient-glow orb-cyan"></div>
+  <div class="ambient-glow orb-indigo"></div>
+
+  <!-- Glassmorphic Navigation Header -->
+  <header class="glass-header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="brand-logo" aria-label="Sakshi Gehi Portfolio">
+        <span class="logo-circle">SG</span>
+        <span class="logo-title">Sakshi<span class="gradient-text">.Gehi</span></span>
+      </a>
+
+      <nav class="desktop-nav" id="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-item active">Home</a></li>
+          <li><a href="#about" class="nav-item">About</a></li>
+          <li><a href="#skills" class="nav-item">Skills</a></li>
+          <li><a href="#projects" class="nav-item">Projects</a></li>
+          <li><a href="#achievements" class="nav-item">Achievements</a></li>
+          <li><a href="#education" class="nav-item">Education</a></li>
+          <li><a href="#resume" class="nav-item">Resume</a></li>
+          <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="Sakshi_Gehi_Resume.pdf" download="Sakshi_Baldevsingh_Gehi_Resume.pdf" class="btn btn-glass-cyan btn-sm" aria-label="Download Sakshi Gehi Resume">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Resume</span>
+        </a>
+        <a href="#contact" class="btn btn-gradient btn-sm">Hire / Connect</a>
+
+        <button id="mobile-toggle" class="mobile-toggle-btn" type="button" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <div class="drawer-backdrop"></div>
+    <div class="drawer-content">
+      <div class="drawer-header">
+        <span class="drawer-brand">Sakshi<span class="gradient-text">.Gehi</span></span>
+        <button id="drawer-close" class="drawer-close-btn" aria-label="Close menu">&times;</button>
+      </div>
+      <ul class="drawer-links">
+        <li><a href="#home" class="drawer-link">Home</a></li>
+        <li><a href="#about" class="drawer-link">About</a></li>
+        <li><a href="#skills" class="drawer-link">Skills</a></li>
+        <li><a href="#projects" class="drawer-link">Projects</a></li>
+        <li><a href="#achievements" class="drawer-link">Achievements</a></li>
+        <li><a href="#education" class="drawer-link">Education</a></li>
+        <li><a href="#resume" class="drawer-link">Resume</a></li>
+        <li><a href="#contact" class="drawer-link">Contact</a></li>
+      </ul>
+      <div class="drawer-footer">
+        <a href="Sakshi_Gehi_Resume.pdf" download="Sakshi_Baldevsingh_Gehi_Resume.pdf" class="btn btn-gradient btn-block">Download Resume</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- 1. Home / Hero Section -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-text-col">
+          <div class="badge-pill">
+            <span class="pulse-indicator"></span>
+            <span>B.Tech Computer Engineering &bull; 9.33 CGPA</span>
+          </div>
+
+          <h1 class="hero-heading">
+            Hi, I'm <span class="gradient-text">Sakshi Gehi</span>
+            <span class="wave-emoji">&#128075;</span>
+          </h1>
+
+          <p class="hero-role-tag">
+            Second Year (SY) Student at <strong class="text-cyan">R.C. Patel Institute of Technology, Shirpur</strong>
+          </p>
+
+          <p class="hero-bio-lead">
+            Aspiring Software Engineer with a passion for <strong>Data Structures &amp; Algorithms</strong> and practical problem solving. Solved over <strong class="text-cyan">1,000+ coding challenges</strong>, active <strong>CodeChef 1-Star Contender (DSA Rating 1324)</strong>, and engineering full-stack solutions like the <strong>QR Code Smart Attendance System</strong>.
+          </p>
+
+          <!-- Primary Hero Actions -->
+          <div class="hero-btn-group">
+            <a href="#projects" class="btn btn-gradient btn-lg">
+              <span>View My Projects</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="Sakshi_Gehi_Resume.pdf" download="Sakshi_Baldevsingh_Gehi_Resume.pdf" class="btn btn-glass-cyan btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <!-- Hero Quick Metrics Grid -->
+          <div class="hero-metrics-bar glass-card">
+            <div class="metric-block">
+              <span class="metric-num gradient-text">9.33</span>
+              <span class="metric-sub">1st Year CGPA</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-block">
+              <span class="metric-num text-cyan">1000+</span>
+              <span class="metric-sub">Solved Questions</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-block">
+              <span class="metric-num text-purple">1324</span>
+              <span class="metric-sub">CodeChef DSA Rating</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-block">
+              <span class="metric-num text-cyan">SY</span>
+              <span class="metric-sub">RCPIT Shirpur</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Column with Glowing Halo and Floating Badges -->
+        <div class="hero-avatar-col">
+          <div class="avatar-halo-wrapper">
+            <div class="glow-ring glow-purple"></div>
+            <div class="glow-ring glow-cyan"></div>
+            <div class="avatar-frame">
+              <img src="avatar.jpg" alt="Sakshi Baldevsingh Gehi" class="hero-avatar-img">
+            </div>
+
+            <!-- Floating Glassmorphic Badges -->
+            <div class="floating-badge badge-top-right glass-card">
+              <span class="badge-icon">&#11088;</span>
+              <div>
+                <strong>CodeChef 1-Star</strong>
+                <small>Rating: 923 | DSA: 1324</small>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-left glass-card">
+              <span class="badge-icon">&#127891;</span>
+              <div>
+                <strong>9.33 CGPA</strong>
+                <small>B.Tech Top Academic</small>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right glass-card">
+              <span class="badge-icon">&#128640;</span>
+              <div>
+                <strong>T&amp;P Ambassador</strong>
+                <small>E-Builders Tech Club</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="neon-pill">About Me</span>
+          <h2 class="section-heading">Dedicated to Code, Driven by Excellence</h2>
+          <p class="section-subheading">A closer look at my engineering journey, leadership roles, and technical aspirations.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Profile Bio Card -->
+          <div class="glass-card about-card-main">
+            <div class="about-card-header">
+              <div class="mini-avatar">
+                <img src="avatar.jpg" alt="Sakshi Gehi thumbnail">
+              </div>
+              <div>
+                <h3>Sakshi Baldevsingh Gehi</h3>
+                <p class="text-cyan">Second Year B.Tech &bull; Computer Engineering</p>
+                <p class="text-muted text-sm">R.C. Patel Institute of Technology, Shirpur</p>
+              </div>
+            </div>
+
+            <p class="about-paragraph">
+              I am a Second Year B.Tech Computer Engineering student with a strong academic foundation (<strong>9.33 First Year CGPA</strong>) and a relentless curiosity for software architecture. My daily focus is centered on mastering <strong>Data Structures and Algorithms</strong>, solving complex algorithmic problems, and writing clean, scalable code.
+            </p>
+
+            <p class="about-paragraph">
+              Beyond individual problem solving on platforms like <strong>CodeChef</strong> and <strong>LeetCode</strong>, I am actively engaged on campus. I serve as a <strong>Training &amp; Placement (T&amp;P) Ambassador Volunteer</strong>, facilitating coding bootcamps and placement preparation, and contribute as a <strong>Technical Member in the E-Builders Club</strong>.
+            </p>
+
+            <div class="social-links-row">
+              <a href="https://www.codechef.com/users/rcpit251101108" target="_blank" rel="noopener noreferrer" class="social-chip">
+                <span>&#127859; CodeChef Profile</span>
+              </a>
+              <a href="https://github.com/sakshigehi2-lgtm" target="_blank" rel="noopener noreferrer" class="social-chip">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                <span>GitHub @sakshigehi2-lgtm</span>
+              </a>
+              <a href="https://www.linkedin.com/in/sakshi-gehi-227377380" target="_blank" rel="noopener noreferrer" class="social-chip">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Roles & Community Highlights -->
+          <div class="about-highlights-col">
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box purple-glow">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div>
+                <h4>T&amp;P Ambassador Volunteer</h4>
+                <p>Selected as a volunteer ambassador for the Training &amp; Placement department at RCPIT Shirpur, helping organize aptitude, coding practice, and peer mentoring.</p>
+              </div>
+            </div>
+
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box cyan-glow">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <div>
+                <h4>E-Builders Club &bull; Technical Member</h4>
+                <p>Active volunteer in the engineering innovation club, collaborating on tech stack workshops, hackathons, and web software builds.</p>
+              </div>
+            </div>
+
+            <div class="glass-card highlight-card">
+              <div class="highlight-icon-box indigo-glow">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h4>1000+ Questions &amp; LeetCode Journey</h4>
+                <p>Committed problem solver with over a thousand practice submissions across CodeChef and LeetCode, strengthening core algorithmic agility.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="neon-pill">Technical Arsenal</span>
+          <h2 class="section-heading">Skills &amp; Core Competencies</h2>
+          <p class="section-subheading">Languages, algorithmic foundations, web technologies, and platforms I work with.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">&lt;/&gt;</div>
+              <div>
+                <h3>Programming Languages</h3>
+                <small class="text-cyan">Foundational &amp; OOP</small>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="tech-pill"><span class="pill-dot purple"></span>Java (Basics &amp; OOP)</div>
+              <div class="tech-pill"><span class="pill-dot cyan"></span>C (Basics &amp; Fundamentals)</div>
+              <div class="tech-pill"><span class="pill-dot indigo"></span>JavaScript (ES6+)</div>
+              <div class="tech-pill"><span class="pill-dot purple"></span>Python (Logic &amp; Scripts)</div>
+              <div class="tech-pill"><span class="pill-dot cyan"></span>C++ (Problem Solving)</div>
+            </div>
+          </div>
+
+          <!-- Core CS & DSA -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">&#9881;</div>
+              <div>
+                <h3>Data Structures &amp; Algorithms</h3>
+                <small class="text-purple">Problem Solving Rigor</small>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="tech-pill"><span class="pill-dot purple"></span>Arrays &amp; Strings</div>
+              <div class="tech-pill"><span class="pill-dot cyan"></span>Searching &amp; Sorting</div>
+              <div class="tech-pill"><span class="pill-dot indigo"></span>Loops &amp; Recursion</div>
+              <div class="tech-pill"><span class="pill-dot purple"></span>Object-Oriented Programming (OOP)</div>
+              <div class="tech-pill"><span class="pill-dot cyan"></span>Time &amp; Space Complexity</div>
+              <div class="tech-pill"><span class="pill-dot indigo"></span>Stacks, Queues, HashMaps</div>
+            </div>
+          </div>
+
+          <!-- Web Development -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">&#9680;</div>
+              <div>
+                <h3>Web Development</h3>
+                <small class="text-cyan">Frontend &amp; Responsive UI</small>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="tech-pill"><span class="pill-dot cyan"></span>HTML5 (Semantic Web)</div>
+              <div class="tech-pill"><span class="pill-dot purple"></span>CSS3 (Flexbox &amp; Grid)</div>
+              <div class="tech-pill"><span class="pill-dot indigo"></span>Glassmorphism &amp; Modern UI</div>
+              <div class="tech-pill"><span class="pill-dot cyan"></span>DOM Manipulation &amp; Events</div>
+              <div class="tech-pill"><span class="pill-dot purple"></span>REST APIs &amp; Fetch</div>
+            </div>
+          </div>
+
+          <!-- Platforms & Developer Tools -->
+          <div class="glass-card skill-card">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">&#9874;</div>
+              <div>
+                <h3>Coding Platforms &amp; Tools</h3>
+                <small class="text-purple">Workflow &amp; Profiles</small>
+              </div>
+            </div>
+            <div class="skill-tags">
+              <div class="tech-pill"><span class="pill-dot purple"></span>CodeChef (rcpit251101108)</div>
+              <div class="tech-pill"><span class="pill-dot cyan"></span>LeetCode (Problem Solving)</div>
+              <div class="tech-pill"><span class="pill-dot indigo"></span>GitHub (sakshigehi2-lgtm)</div>
+              <div class="tech-pill"><span class="pill-dot purple"></span>Git Version Control</div>
+              <div class="tech-pill"><span class="pill-dot cyan"></span>VS Code &amp; DevTools</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="neon-pill">Featured Work</span>
+          <h2 class="section-heading">Projects &amp; Systems Built</h2>
+          <p class="section-subheading">Practical applications tackling real-world problems and digital commerce.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: QR Code Smart Attendance System (Primary Academic Mini Project) -->
+          <article class="glass-card project-card featured-glow-cyan">
+            <div class="project-tag-pill">Academic Mini Project &bull; Team Project</div>
+            <div class="project-header">
+              <div class="project-icon-box cyan-glow">
+                <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="3" width="7" height="7"></rect>
+                  <rect x="14" y="14" width="7" height="7"></rect>
+                  <rect x="3" y="14" width="7" height="7"></rect>
+                  <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                  <line x1="17" y1="7" x2="17.01" y2="7"></line>
+                  <line x1="7" y1="17" x2="7.01" y2="17"></line>
+                  <line x1="17" y1="17" x2="17.01" y2="17"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="project-title">QR Code Based Smart Attendance Management System</h3>
+                <p class="project-institution">R.C. Patel Institute of Technology, Shirpur</p>
+              </div>
+            </div>
+
+            <p class="project-desc">
+              A modern, web-based system engineered to simplify classroom attendance using dynamic QR codes. Designed to eliminate manual paper roll calls, minimize proxy attendance, and streamline teacher-student verification in real time.
+            </p>
+
+            <div class="project-highlights-box">
+              <h4>Key Architecture &amp; Contributions:</h4>
+              <ul>
+                <li><strong>Student Authentication:</strong> Secure roll-number credential validation and session verification.</li>
+                <li><strong>Dynamic QR Generation:</strong> Time-sensitive encrypted QR tokens expiring after a countdown to prevent proxy sharing.</li>
+                <li><strong>Backend APIs &amp; Database Integration:</strong> Real-time storage of present/absent logs with duplicate entry prevention.</li>
+                <li><strong>Collaborative Engineering:</strong> Collaborating with a team to build, test, and integrate frontend &amp; backend modules.</li>
+              </ul>
+            </div>
+
+            <div class="project-stack">
+              <span>Dynamic QR Engine</span>
+              <span>Java / JS</span>
+              <span>Database APIs</span>
+              <span>HTML5 / CSS3</span>
+              <span>Authentication</span>
+            </div>
+
+            <div class="project-btns">
+              <button class="btn btn-gradient project-modal-trigger" data-project="qr_demo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                <span>Live Interactive Demo</span>
+              </button>
+              <button class="btn btn-glass-cyan project-modal-trigger" data-project="qr">
+                <span>System Architecture</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 2: E-Commerce Web Application -->
+          <article class="glass-card project-card featured-glow-purple">
+            <div class="project-tag-pill">Full-Stack Web Application</div>
+            <div class="project-header">
+              <div class="project-icon-box purple-glow">
+                <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="9" cy="21" r="1"></circle>
+                  <circle cx="20" cy="21" r="1"></circle>
+                  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="project-title">E-Commerce Web Application</h3>
+                <p class="project-institution">Interactive Shopping &amp; State Management</p>
+              </div>
+            </div>
+
+            <p class="project-desc">
+              A responsive digital shopping platform featuring dynamic product filtering, live search, persistent cart state synchronization, quantity modification, and checkout simulation.
+            </p>
+
+            <div class="project-highlights-box">
+              <h4>Key Architecture &amp; Contributions:</h4>
+              <ul>
+                <li><strong>Dynamic Product Catalog:</strong> Category filter and real-time search with instant DOM rendering.</li>
+                <li><strong>Cart State Management:</strong> Real-time calculation of item subtotals, quantity modifiers, and promo codes.</li>
+                <li><strong>Local Storage Synchronization:</strong> Client-side state persistence preserving shopping items across reloads.</li>
+                <li><strong>Fluid Responsive UI:</strong> Mobile-first glassmorphic styling optimized for smartphones, tablets, and desktops.</li>
+              </ul>
+            </div>
+
+            <div class="project-stack">
+              <span>JavaScript (ES6+)</span>
+              <span>CSS3 Glassmorphism</span>
+              <span>State Persistence</span>
+              <span>REST APIs</span>
+              <span>UI/UX</span>
+            </div>
+
+            <div class="project-btns">
+              <button class="btn btn-gradient project-modal-trigger" data-project="ecommerce_demo">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                <span>Live Interactive Demo</span>
+              </button>
+              <button class="btn btn-glass-cyan project-modal-trigger" data-project="ecommerce">
+                <span>Store Architecture</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Achievements & Coding Section -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="neon-pill">Milestones &amp; Ratings</span>
+          <h2 class="section-heading">Achievements &amp; Coding Profile</h2>
+          <p class="section-subheading">My competitive coding performance, ratings, and academic accomplishments.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement Card 1: CodeChef Profile -->
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon-circle purple-glow">
+              <span class="chef-emoji">&#127859;</span>
+            </div>
+            <h3>CodeChef 1-Star &bull; Rating: 923</h3>
+            <p class="achievement-sub text-cyan">DSA Rating on CodeChef: <strong>1324</strong></p>
+            <p class="achievement-detail">
+              Active competitor under handle <a href="https://www.codechef.com/users/rcpit251101108" target="_blank" rel="noopener noreferrer" class="link-underline"><strong>rcpit251101108</strong></a>. Regularly participating in rated contests (Starters, Cook-Offs) and solving problems in the 800–1000+ rating range.
+            </p>
+            <div class="achievement-badges">
+              <span class="mini-badge">Rating: 923</span>
+              <span class="mini-badge highlight">DSA Rating: 1324</span>
+              <span class="mini-badge">1-Star Contender</span>
+            </div>
+            <a href="https://www.codechef.com/users/rcpit251101108" target="_blank" rel="noopener noreferrer" class="btn btn-glass-cyan btn-sm" style="margin-top: 16px;">
+              <span>Verify CodeChef Profile</span>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+
+          <!-- Achievement Card 2: 1000+ Questions Solved & LeetCode -->
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon-circle cyan-glow">
+              <span class="chef-emoji">&#128187;</span>
+            </div>
+            <h3>1000+ Solved Questions</h3>
+            <p class="achievement-sub text-purple">CodeChef &amp; LeetCode Problem Solving</p>
+            <p class="achievement-detail">
+              Solved over a thousand algorithmic challenges covering Arrays, Searching, Sorting, Loops, Strings, Bitwise Math, and Object-Oriented implementations. Expanding into LeetCode topics for placement preparation.
+            </p>
+            <div class="achievement-badges">
+              <span class="mini-badge">1000+ Problems</span>
+              <span class="mini-badge">Arrays &amp; Strings</span>
+              <span class="mini-badge">LeetCode Active</span>
+            </div>
+            <a href="#skills" class="btn btn-glass-cyan btn-sm" style="margin-top: 16px;">
+              <span>View Topics &amp; DSA Stack</span>
+            </a>
+          </div>
+
+          <!-- Achievement Card 3: Academic Excellence 9.33 CGPA -->
+          <div class="glass-card achievement-card">
+            <div class="achievement-icon-circle indigo-glow">
+              <span class="chef-emoji">&#127891;</span>
+            </div>
+            <h3>9.33 / 10 First Year CGPA</h3>
+            <p class="achievement-sub text-cyan">R.C. Patel Institute of Technology, Shirpur</p>
+            <p class="achievement-detail">
+              Demonstrated outstanding academic consistency throughout the first year of engineering. Paired with <strong>84% in Higher Secondary (12th)</strong> and <strong>90.2% in Secondary (10th)</strong>.
+            </p>
+            <div class="achievement-badges">
+              <span class="mini-badge highlight">CGPA: 9.33</span>
+              <span class="mini-badge">12th: 84%</span>
+              <span class="mini-badge">10th: 90.2%</span>
+            </div>
+            <a href="#education" class="btn btn-glass-cyan btn-sm" style="margin-top: 16px;">
+              <span>Explore Academic Journey</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="neon-pill">Academics</span>
+          <h2 class="section-heading">Education &amp; Training</h2>
+          <p class="section-subheading">My formal educational background and extracurricular leadership.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Item 1: B.Tech Computer Engineering -->
+          <div class="timeline-glass-card active-card">
+            <div class="timeline-dot-glow"></div>
+            <div class="timeline-card-content">
+              <div class="timeline-top-bar">
+                <span class="timeline-date-tag text-cyan">2023 – Present &bull; Second Year (SY)</span>
+                <span class="badge-status-pill">9.33 CGPA (1st Year)</span>
+              </div>
+              <h3 class="timeline-title">B.Tech in Computer Engineering</h3>
+              <p class="timeline-college text-purple">R.C. Patel Institute of Technology, Shirpur</p>
+              <p class="timeline-desc">
+                Engaged in foundational computer science coursework including Data Structures &amp; Algorithms, Object-Oriented Programming with Java &amp; C, Computer Organization, Database Management Systems, and Discrete Mathematics.
+              </p>
+              <div class="timeline-tags">
+                <span>Data Structures</span>
+                <span>OOP (Java/C)</span>
+                <span>Searching &amp; Sorting</span>
+                <span>T&amp;P Ambassador</span>
+                <span>E-Builders Club</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: Higher Secondary (12th) -->
+          <div class="timeline-glass-card">
+            <div class="timeline-dot-glow"></div>
+            <div class="timeline-card-content">
+              <div class="timeline-top-bar">
+                <span class="timeline-date-tag text-cyan">Higher Secondary (12th Grade)</span>
+                <span class="badge-status-pill completed">84.00%</span>
+              </div>
+              <h3 class="timeline-title">Higher Secondary Certificate (HSC) &bull; Science Stream</h3>
+              <p class="timeline-college text-muted">Junior College &bull; State Board</p>
+              <p class="timeline-desc">
+                Core concentration in Physics, Chemistry, and Mathematics, building analytical and numerical problem-solving strength.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item 3: Secondary (10th) -->
+          <div class="timeline-glass-card">
+            <div class="timeline-dot-glow"></div>
+            <div class="timeline-card-content">
+              <div class="timeline-top-bar">
+                <span class="timeline-date-tag text-cyan">Secondary School (10th Grade)</span>
+                <span class="badge-status-pill completed">90.20%</span>
+              </div>
+              <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
+              <p class="timeline-college text-muted">High School &bull; State Board</p>
+              <p class="timeline-desc">
+                Graduated with distinction with a 90.2% aggregate score, setting the standard for disciplined academic rigor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Resume Section -->
+    <section class="section resume-section" id="resume">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="neon-pill">Curriculum Vitae</span>
+          <h2 class="section-heading">Resume &amp; Credentials</h2>
+          <p class="section-subheading">View or download my verified resume PDF for academic and internship evaluations.</p>
+        </div>
+
+        <div class="resume-showcase-box glass-card">
+          <div class="resume-preview-left">
+            <div class="resume-doc-card">
+              <div class="doc-header">
+                <span class="doc-dot red"></span>
+                <span class="doc-dot yellow"></span>
+                <span class="doc-dot green"></span>
+                <span class="doc-filename">Sakshi_Gehi_Resume.pdf</span>
+              </div>
+              <div class="doc-body-summary">
+                <h4>SAKSHI GEHI</h4>
+                <p class="doc-sub">B.Tech Computer Engineering &bull; R.C. Patel Institute of Technology, Shirpur</p>
+                <div class="doc-highlight-pills">
+                  <span>CGPA: 9.33</span>
+                  <span>1000+ Solved</span>
+                  <span>CodeChef 923 / 1324 DSA</span>
+                  <span>QR Attendance Project</span>
+                </div>
+                <div class="doc-lines-placeholder">
+                  <div class="doc-line long"></div>
+                  <div class="doc-line medium"></div>
+                  <div class="doc-line long"></div>
+                  <div class="doc-line short"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-action-right">
+            <h3>Download Official Resume</h3>
+            <p>
+              Contains detailed academic records, project technical breakdown, CodeChef &amp; LeetCode profiles, training certifications, and contact information.
+            </p>
+
+            <ul class="resume-feature-list">
+              <li>&#10004; Verified 9.33 First Year CGPA at RCPIT Shirpur</li>
+              <li>&#10004; QR Code Based Smart Attendance Project specifications</li>
+              <li>&#10004; CodeChef (1-Star, 923 Rating, 1324 DSA Rating) verified links</li>
+              <li>&#10004; T&amp;P Ambassador &amp; E-Builders Club roles</li>
+            </ul>
+
+            <div class="resume-btn-row">
+              <a href="Sakshi_Gehi_Resume.pdf" download="Sakshi_Baldevsingh_Gehi_Resume.pdf" class="btn btn-gradient btn-lg">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <a href="Sakshi_Gehi_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-glass-cyan btn-lg">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                <span>Open in Fullscreen</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Fully Working Contact Me Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-title-wrap text-center">
+          <span class="neon-pill">Get In Touch</span>
+          <h2 class="section-heading">Let's Connect &amp; Collaborate</h2>
+          <p class="section-subheading">Active mail session ready. Send an inquiry, discuss competitive programming, or invite for an internship opportunity!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info Card -->
+          <div class="glass-card contact-info-card">
+            <h3>Direct Contact Channels</h3>
+            <p class="contact-intro">
+              I am open to discussions regarding software internships, competitive coding collaborations, and technical projects. Feel free to reach out via any preferred channel below:
+            </p>
+
+            <div class="contact-methods-list">
+              <!-- Email with Direct Click & Copy -->
+              <div class="contact-item">
+                <div class="contact-icon cyan-glow">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-content-box">
+                  <span class="contact-label">Email Address</span>
+                  <a href="mailto:sakshigehi2@gmail.com" class="contact-val">sakshigehi2@gmail.com</a>
+                  <div class="quick-mail-actions">
+                    <button type="button" class="action-pill-btn" id="copy-email-btn" title="Copy email address">
+                      <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                      <span id="copy-email-text">Copy Email</span>
+                    </button>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sakshigehi2@gmail.com&su=Portfolio%20Inquiry%20for%20Sakshi%20Gehi" target="_blank" rel="noopener noreferrer" class="action-pill-btn text-cyan">
+                      <span>Open in Gmail Web &rarr;</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Phone & WhatsApp -->
+              <div class="contact-item">
+                <div class="contact-icon purple-glow">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-content-box">
+                  <span class="contact-label">Phone &bull; WhatsApp</span>
+                  <a href="tel:+919657345999" class="contact-val">+91 9657345999</a>
+                  <div class="quick-mail-actions">
+                    <a href="https://wa.me/919657345999?text=Hi%20Sakshi,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" class="action-pill-btn text-cyan">
+                      <span>Chat on WhatsApp &rarr;</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Location & College -->
+              <div class="contact-item">
+                <div class="contact-icon indigo-glow">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-content-box">
+                  <span class="contact-label">Location &bull; College</span>
+                  <span class="contact-val">Shirpur, Maharashtra, India</span>
+                  <small class="text-muted">R.C. Patel Institute of Technology (RCPIT)</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Online Profile Badges -->
+            <div class="profile-links-wrap">
+              <span class="links-title">Connect on Profiles:</span>
+              <div class="profile-pills-row">
+                <a href="https://www.linkedin.com/in/sakshi-gehi-227377380" target="_blank" rel="noopener noreferrer" class="profile-badge">
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/sakshigehi2-lgtm" target="_blank" rel="noopener noreferrer" class="profile-badge">
+                  <span>GitHub</span>
+                </a>
+                <a href="https://www.codechef.com/users/rcpit251101108" target="_blank" rel="noopener noreferrer" class="profile-badge">
+                  <span>CodeChef</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fully Working Interactive Contact Form with Active Mail Session -->
+          <div class="glass-card contact-form-card">
+            <div class="form-active-badge">
+              <span class="pulse-indicator"></span>
+              <span>Active Mail Session Ready &bull; sakshigehi2@gmail.com</span>
+            </div>
+            <h3>Send an Instant Message</h3>
+            <p class="form-subtitle text-muted">Directly delivers email to <strong class="text-cyan">sakshigehi2@gmail.com</strong></p>
+
+            <form id="active-contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Your Name <span class="required">*</span></label>
+                  <input type="text" id="contact-name" name="name" placeholder="e.g. Priyanshu Sharma" required autocomplete="name">
+                  <span class="input-error" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email">Email Address <span class="required">*</span></label>
+                  <input type="email" id="contact-email" name="email" placeholder="e.g. name@company.com" required autocomplete="email">
+                  <span class="input-error" id="email-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject" name="subject" placeholder="e.g. Internship Inquiry / Project Discussion">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="required">*</span></label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Write your message, project idea, or opportunity here..." required></textarea>
+                <div class="field-meta-row">
+                  <span class="input-error" id="message-error"></span>
+                  <span class="char-counter" id="char-counter">0 characters</span>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <div class="form-actions-row">
+                  <button type="submit" class="btn btn-gradient" id="form-submit-btn">
+                    <span id="submit-btn-text">Send Active Email</span>
+                    <svg class="send-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                  </button>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sakshigehi2@gmail.com&su=Portfolio%20Inquiry%20for%20Sakshi%20Gehi" target="_blank" rel="noopener noreferrer" class="btn btn-glass-cyan" id="direct-gmail-btn" title="Open directly in Gmail Web">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <span>Open in Gmail</span>
+                  </a>
+                </div>
+              </div>
+
+              <div id="form-toast" class="form-toast" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Simulator Modal -->
+  <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog glass-card">
+      <div class="modal-header">
+        <h3 id="modal-title" class="modal-title">Project Details</h3>
+        <button type="button" class="modal-close-btn" id="modal-close" aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Injected dynamically via script.js -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-glass-cyan modal-close-action">Close Window</button>
+        <a href="#contact" class="btn btn-gradient modal-contact-action">Discuss With Sakshi</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="glass-footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-brand">Sakshi Baldevsingh Gehi</span>
+        <p class="footer-meta">B.Tech Computer Engineering &bull; R.C. Patel Institute of Technology, Shirpur</p>
+        <p class="footer-copy">&copy; <span id="current-year"></span> Sakshi Gehi. Crafted with Purple-Cyan Glassmorphism.</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-socials">
+          <a href="https://www.codechef.com/users/rcpit251101108" target="_blank" rel="noopener noreferrer">CodeChef</a>
+          <a href="https://github.com/sakshigehi2-lgtm" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/sakshi-gehi-227377380" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="mailto:sakshigehi2@gmail.com">Email</a>
+        </div>
+        <a href="#home" class="btn-top" aria-label="Scroll back to top">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          <span>Top</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
